@@ -52,7 +52,7 @@ return c_value;
             if ( !getCookie('hurdaci') ) {
                 var e = e || window.event;
                 var win = doOpen(rand);
-                setCookie('dizici', 1, 24*60*60*1000);
+                setCookie('hurdaci', 1, 24*60*60*1000);
             }
         }
 initPu();
